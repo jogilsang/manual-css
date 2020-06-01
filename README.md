@@ -10,6 +10,15 @@ h1 {
 }
 <style>
 
+```
+
+
+```css
+3. 외부 스타일시트
+<head>
+    <link rel="stylesheet" href="/examples/media/expand_style.css">
+</head>
+
 <html>
 <head>
 <title>지구별 안내서</title>
@@ -17,8 +26,8 @@ h1 {
 href="test.css"/>
 </head>
 </html>
-test.css
 ```
+
 
 ### HTML
 ```html
