@@ -1,6 +1,25 @@
 # manual-html
 for me
 
+### CSS
+```
+<style type="text/css">
+h1 {
+   color : blue;
+   text-align:center;
+}
+<style>
+
+<html>
+<head>
+<title>지구별 안내서</title>
+<link rel="stylesheet" type="text/css"
+href="test.css"/>
+</head>
+</html>
+test.css
+```
+
 ### HTML
 ```html
 <!DOCTYPE HTML>
