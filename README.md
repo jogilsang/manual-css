@@ -108,4 +108,12 @@ inline block : 겉으로는 inline으로 한줄을 차지만, 내부 요소에�
 </style>
 ```
 
+### display : position
+```
+    .static { position: static; }
+    .relative { position: relative; }
+    .fixed { position: fixed; }
+    .absolute { position: absolute; }
+    z-index : -20; <!-- 우선순위 -->
+```
 
