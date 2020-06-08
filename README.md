@@ -64,9 +64,27 @@ div.child {
 	margin-left : inherit;
 }
 
+div.desc {
+	background-color : #FFF8DC;
+	margin : 10px, 20px, 30px, 40px <!-- 위 10, 오른쪽 20, 아래 30, 왼쪽 40-->
+	margin : 10px, 20px, 30px <!-- 위 10, 오른쪽 20, 아래 30, 왼쪽 20-->
+	margin : 10px, 20px<!-- 위 10, 오른쪽 20, 아래 10, 왼쪽 20-->
+	margin : 10px <!-- 위 10, 오른쪽 10, 아래 10, 왼쪽 10-->
+	margin : auto <!-- 부모화면의 중앙-->
+}
+
 <div class="parent">
 	<div class ="child"></div>
 </div>
 
 ```
+
+### outline
+```css
+<style>
+    p { border: 1px solid black; }
+    p.none { outline: 3px none teal; }
+</style>
+```
+
 
