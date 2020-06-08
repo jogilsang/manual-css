@@ -117,3 +117,13 @@ inline block : 겉으로는 inline으로 한줄을 차지만, 내부 요소에�
     z-index : -20; <!-- 우선순위 -->
 ```
 
+### order : 좌우정렬, 중앙정렬
+```css
+<style>
+    div { width: 300px; margin: auto; }
+    div.left { float: left }
+    div.right { float: right }
+</style>
+
+```
+
