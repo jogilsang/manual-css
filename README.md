@@ -50,5 +50,23 @@ h1 {
 	<h3>텍스트를 통과하는 가운데 줄을 만듭니다.</h3>
 	<h4>텍스트에 밑줄을 만듭니다.</h4>
 
+
+```
+
+### margin
+```css
+div.parent{
+	height : 100px;
+	margin-left : 100px;
+}
+div.child {
+	background-color : #FFF8DC;
+	margin-left : inherit;
+}
+
+<div class="parent">
+	<div class ="child"></div>
+</div>
+
 ```
 
