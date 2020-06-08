@@ -97,5 +97,15 @@ inline block : 겉으로는 inline으로 한줄을 차지만, 내부 요소에�
     .inline-block { display: inline-block; }
 
 ```
+### display : none, hidden
+```css
+<style>
+
+    p.none { display: none; }
+
+    p.hidden { visibility: hidden; }
+
+</style>
+```
 
 
