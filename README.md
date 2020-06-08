@@ -1,35 +1,8 @@
-# manual-html
+# manual-CSS
 for me
 
-### CSS
-```
-<style type="text/css">
-h1 {
-   color : blue;
-   text-align:center;
-}
-<style>
 
-```
-
-
-```css
-3. 외부 스타일시트
-<head>
-    <link rel="stylesheet" href="/examples/media/expand_style.css">
-</head>
-
-<html>
-<head>
-<title>지구별 안내서</title>
-<link rel="stylesheet" type="text/css"
-href="test.css"/>
-</head>
-</html>
-```
-
-
-### HTML
+### HTML 기본
 ```html
 <!DOCTYPE HTML>
 <html>
@@ -47,7 +20,25 @@ href="test.css"/>
 </html>
 ```
 
-### CSS Syntax
+### CSS 생성하는 법
+```css
+/* 2. 내부 스타일시트 */
+<style type="text/css">
+h1 {
+   color : blue;
+   text-align:center;
+}
+<style>
+
+/* 3. 외부 스타일시트 */
+<head>
+    <link rel="stylesheet" href="/examples/media/expand_style.css">
+    <link rel="stylesheet" type="text/css"
+</head>
+
+```
+
+### CSS Syntax 
 ```CSS
    		h2 { text-decoration: overline; }
 		h3 { text-decoration: line-through; }
