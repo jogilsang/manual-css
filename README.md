@@ -87,4 +87,15 @@ div.desc {
 </style>
 ```
 
+### display : inline, block
+한줄에 다 나오게 한다. inline
+한줄 한줄 차지하게 끔하기 block
+inline block : 겉으로는 inline으로 한줄을 차지만, 내부 요소에서는 block처럼 동작
+```css
+
+    .inline { display: inline; }
+    .inline-block { display: inline-block; }
+
+```
+
 
