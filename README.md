@@ -126,4 +126,27 @@ inline block : 겉으로는 inline으로 한줄을 차지만, 내부 요소에�
 </style>
 
 ```
+### table 
+```
+          <table class="ar-table-header">
+            <colgroup>
+                <col width="15%">
+                <col width="20%">
+                <col width="15%">
+                <col width="15%">
+                <col width="20%">
+                <col width="15%">
+            </colgroup>
+          <thead>
+  
+            <tr>
+                <th scope="col" rowspan="2">남성</th>
+                <th scope="col" rowspan="2">연령대</th>
+                <th scope="col" rowspan="2" class="ar-table-right-bolder">여성</th>
+                <th scope="col" rowspan="2">남성</th>
+                <th scope="col" rowspan="2">연령대</th>
+                <th scope="col" rowspan="2">여성</th>
+            </tr>
+           </thead>
+```
 
